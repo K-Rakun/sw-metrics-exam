@@ -12,3 +12,5 @@ class CalculatorTest(unittest.TestCase):
     def test_factoriel(self):
         self.assertEqual(6, math.factorial(3) )
 
+    def test_multiply(self):
+        self.assertEqual(30, 5 * 6)
