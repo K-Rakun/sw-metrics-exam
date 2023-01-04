@@ -1,4 +1,5 @@
 import unittest
+import math
 
 class CalculatorTest(unittest.TestCase):
 
@@ -7,4 +8,7 @@ class CalculatorTest(unittest.TestCase):
 
     def test_subtract(self):
         self.assertEqual(12,15 - 3)
+
+    def test_factoriel(self):
+        self.assertEqual(6, math.factorial(3) )
 
